@@ -25,7 +25,7 @@ const path = useLocation();
       <div className="mt-5 pl-[18px] pr-3.5 pb-5">
         <ChipListComponent id="travel-chip">
           <ChipsDirective>
-            {tags.map((tag, index) => (
+            {tags?.map((tag, index) => (
               <ChipDirective
               key={index}
               text={getFirstWord(tag)}

@@ -542,3 +542,22 @@ body {
   top: 45px;
   right: 40px;
 }
+
+.gallery img {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.trip-card{
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.trip-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
